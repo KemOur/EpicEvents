@@ -1,4 +1,5 @@
-body{
+
+*{
     margin: 0;
     padding: 0;
     font-family: Poppins;
@@ -23,9 +24,8 @@ header{
 }
 
 .nav-area{
-    height: 60px;
-    position: absolute;
-    width: 100%;
+    /*posoition: absolute*/
+    position: relative;
 }
 
 
@@ -85,7 +85,7 @@ p {
     text-align: center;
     float: left;
     margin: 3%;
- }
+}
 
 .p_ami{
     font-family: Poppins;
@@ -98,13 +98,22 @@ p {
     color: #0CBFA4;
 }
 
-
-
 .row{
-    /**/
+    position: relative;
+    justify-content: center;
+    flex-direction: row;
+    overflow-x: auto;
+    margin: 5%;
+}
+
+.row2{
+    margin: 20px;
+    position: relative;
     display: flex;
     justify-content: center;
     flex-direction: row;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
 }
 
 /* Clear floats after the columns */
@@ -113,6 +122,7 @@ p {
     display: table;
     clear: both;
 }
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 16px;
@@ -131,24 +141,30 @@ p {
     .column {
         width: 100%;
         display: block;
-        margin-bottom: 20px;
     }
 }
 
-.imageDigital{
-
+.imageDigital {
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
+    border-radius: 40px;
 }
+
+.titleDIP{color: #f1f1f1 }
+.textDigital{color: #f1f1f1}
+
 .imageInfluence {
     display: block;
+    width: 100%; height: 100%; border-radius: 40px;
 }
 .imageProduction{
-    display: block;
+    display: block;width: 100%; height: 100%; border-radius: 40px;
 }
 
-
+.subtitle{
+    text-align: center; font-family: Poppins; font-size: 29px
+}
 .overlay {
     position: absolute;
     bottom: 0;
@@ -172,6 +188,7 @@ p {
     border-radius: 40px;
     left: 0;
 }
+
 
 .dsd{
     background-color: #f1f1f1;
@@ -238,8 +255,6 @@ p {
     margin-top: 50%;
 }
 
-
-
 .a{
     float: left;
     width: 50%;
@@ -248,7 +263,6 @@ p {
 .b{
     text-align: center;
 }
-
 
 .OurServices{
     float: left;
@@ -267,11 +281,76 @@ p {
     float: left;
 }
 
+.notreObjectif{
+    font-family:Poppins;
+    text-align: center;
+    font-size: 40px;
+}
+
+.votreReussite{
+    font-family: Poppins;
+    text-align: center;
+    font-size: 35px;
+    margin-left: 200px;
+    color: #FBDC00;
+}
 /*Responsive web design */
 
 /*For phones*/
 @media screen and (min-width: 320px) and (max-width: 539px) {
 
+ .votreReussite{
+        font-size: 25px;
+        margin: 10px
+    }
+
+
+    .column{
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .p_ami{
+        font-size: 25px;
+    }
+
+    .p_lmfael{
+        font-size: 12px;
+        text-align: center;
+    }
+    .formationsCertifiantes{
+        font-size: 19px;
+    }
+
+    .row2{
+        display: initial;
+        justify-content: center;
+    }
+
+    .img-bg {
+        margin-top: 100%;
+    }
+
+    .menu-ifrac{
+        font-size: 10px;
+        /*display: none;*/
+    }
+
+
+    /*logo/
+    les-catégories du menu /
+     Agence de média /
+     "les meuilleurs formations"/
+     button j'n profite/
+     Notre objectif votre réussite
+     */
+
+   /* * {
+        margin: 0;
+        padding: 0;
+        font-size: 4px;
+    }
+    */
 }
 
 /*For Tablets*/
@@ -283,7 +362,3 @@ p {
 @media screen and (min-width: 1024px) and (max-width: 719px) {
 
 }
-
-
-
-/*Responsive Navbar*/

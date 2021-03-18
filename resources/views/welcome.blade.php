@@ -1,34 +1,33 @@
 @include('partials.header')
 
 <br> <br> <br> <br>
-                <p style="font-family:Poppins; text-align: center; font-size: 40px">Notre objectif</p>
-                <p style="font-family: Poppins; text-align: center; font-size: 35px; margin-left: 200px; color: #FBDC00">Votre <span style="background-color: white">réussite</span> </p>
+                <p class="notreObjectif">Notre objectif</p>
+                <p class="votreReussite">Votre <span style="background-color: white">réussite</span> </p>
     <br> <br> <br> <br>
 
         <div class="row">
             <div class="column">
                 <div class="card">
-                    <img src="./img/digital.png" class="imageDigital" style="width: 100%; height: 100%; border-radius: 40px">
+                    <img src="./img/digital.png" class="imageDigital">
                     <div class="overlay">
                         <br> <br> <br>
-                        <h3 style="color: #f1f1f1">Digital</h3>
-                        <small style="color: #f1f1f1">Digital
+                        <h3 class="titleDIP">Digital</h3>
+                        <small class="textDigital">Digital
                             Epic s’occupe de digitaliser les entreprises dans le besoin de transformer leur activité grâce au numérique.
                             De la création du site internet, à la mise en place de stratégie de médias buying, nous proposons un large panel de
                             compétences digitales pour booster vos ventes et votre activité grâce à des leviers numériques innovants.
                         </small>
                     </div>
                 </div>
-                <h1 style="text-align: center; font-family: Poppins">1</h1>
-                <h1 style="text-align: center; font-family: Poppins; font-size: 29px">DIGITAL</h1>
+                <h1 class="subtitle">DIGITAL</h1>
             </div>
 
             <div class="column">
                 <div class="card">
-                    <img src="./img/influence.png" class="imageInfluence" style="width: 100%; height: 100%; border-radius: 40px">
+                    <img src="./img/digital.png" class="imageInfluence" >
                         <div class="overlay">
                             <br> <br> <br>
-                            <h3 style="color: #f1f1f1">Influence</h3>
+                            <h3 class="titleDIP">Influence</h3>
                             <small style="color: #f1f1f1">Bienvenue dans la Epic team , notre agence spécialisée depuis plus de 5 ans dans la gestion de créateurs de
                                 contenus vous accompagne dans votre stratégie d’acquisition marketing en vous conseillant les profils les plus adaptés à vos besoins.
                                 Comme chaque client demande une attention particulière, nos équipes d’experts en influence vous conseillent pas à pas et vous accompagnent
@@ -36,29 +35,30 @@
                             </small>
                         </div>
                 </div>
-                <h1 style="text-align: center; font-family: Poppins">2</h1>
-                <h1 style="text-align: center; font-family: Poppins; font-size: 29px">INFLUENCE</h1>
+                <h1 class="subtitle">INFLUENCE</h1>
             </div>
 
             <div class="column">
                 <div class="card">
-                    <img src="./img/production.png" class="imageProduction" style="width: 100%; height: 100%; border-radius: 40px">
+                    <img src="./img/digital.png" class="imageProduction">
                     <div class="overlay">
                         <br> <br> <br>
-                        <h3 style="color: #f1f1f1">Production</h3>
+                        <h3 class="titleDIP">Production</h3>
                         <small style="color: #f1f1f1">Nous disposons actuellement d’un pôle production composée de graphistes, monteurs, scénaristes, casteurs,
                             responsables de production… Cet aspect nous permet avant tout de générer des contenus intéressants pour nos différents clients,
                             cela dit nous avons également élargi cette activité afin de la proposer aussi bien pour des vidéos de promotions placement de produits,
                             que pour l’ads ou encore du contenu visuel innovant sur votre site.</small>
                     </div>
                 </div>
-                <h1 style="text-align: center; font-family: Poppins">3</h1>
-                <h1 style="text-align: center; font-family: Poppins; font-size: 29px">PRODUCTION</h1>
+                <h1 class="subtitle">PRODUCTION</h1>
             </div>
             </div>
+
+
             <br> <br> <br> <br> <br> <br> <br>
-        <div class="row">
-            <div class="column">
+
+        <div class="row2">
+            <div class="">
                 <div class="">
                     <img src="./img/ordi1.png" class="imageDigital">
                 </div>
@@ -66,18 +66,23 @@
 
             <div class="" style="margin-top: 3%">
                 <div class="column" style="text-align: center; width: 100%; font-size: 30px">
-                        Des formations certifiantes<br>
+                        <p class="formationsCertifiantes">Des formations certifiantes<br>
                         reconnues par l’État.
+                        </p>
                 </div>
             </div>
 
 
-            <div class="column">
+            <div class="">
                 <div class="">
                     <img src="./img/ordi2.png" class="imageDigital">
                 </div>
             </div>
         </div>
+
+
+
+
         <br> <br> <br> <br> <br> <br> <br> <br> <br>
     </div>
         <div class="dsd">
@@ -217,7 +222,7 @@
 
             <div class="toi">
 
-            <p style="text-align: center; margin: 8%; font-size: 40px; font-family: Poppins"> Nos Services </p>
+            <p style="text-align: center; margin: 8%; font-size: 40px; font-family: Poppins">Services </p>
         </div>
 
         <div class="NosServices">

@@ -1,16 +1,38 @@
-
 *{
     margin: 0;
     padding: 0;
     font-family: Poppins;
 }
+
 .container{
     background-color: #EDF0F7;
 }
 
+/* HEADER */
 header{
     overflow: hidden;
     height: 100vh;
+}
+
+body {
+    background-color: #EDF0F7;
+}
+
+.burger div{
+    width: 25px;
+    height: 5px;
+    /* change to yellow after in mobile version*/
+    background-color: white;
+    margin: 5px;
+    transition: all 0.3s ease;
+}
+
+.NosServices{
+    text-align: center;
+    font-size: 40px;
+}
+.burger {
+    display: none;
 }
 
 .img-bg{
@@ -24,34 +46,49 @@ header{
 }
 
 .nav-area{
-    /*posoition: absolute*/
-    position: relative;
+     position: relative;
 }
 
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
-.menu-ifrac{
-    margin-right: 3%;
-    float: right;
+.nav-links{
+    display: flex;
+    justify-content: space-around;
+}
+
+.agencyPrese{
+    margin: 120px;
 }
 
 .img_logo{
-    width: 155px;
-    height: 66px;
+    width: 150px;
+    height: 60px;
+}
+
+.ServicesList_2{
+    text-align: center;
+    float: right;
+    height: 300px;
+
+}
+
+.footerUl{
+    margin-left: 200px;
 }
 
 ul {
     list-style-type: none;
-    margin: 3%;
+    margin: 0;
     padding: 0;
     overflow: hidden;
 }
 
 li {
     float: left;
-}
-
-.ul_li_menu{
-    float: right;
 }
 
 li a {
@@ -65,6 +102,11 @@ li a {
 
 p {
     margin:0 ;
+}
+
+.ServicesTitle{
+    margin: 0;
+    font-size: 20px;
 }
 
 .profite {
@@ -88,12 +130,11 @@ p {
 }
 
 .p_ami{
-    font-family: Poppins;
+    margin-top: 100px;
     font-size: 70px;
 }
 
 .p_lmfael{
-    font-family: Poppins;
     font-size: 20px;
     color: #0CBFA4;
 }
@@ -125,7 +166,7 @@ p {
 
 .card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
+    padding: 0;
     text-align: center;
     background-color: #f1f1f1;
 }
@@ -137,34 +178,39 @@ p {
     padding: 0 10px;
 }
 
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-        display: block;
-    }
-}
-
 .imageDigital {
     display: block;
     width: 100%;
     height: 100%;
-    border-radius: 40px;
+    border-radius: 15px;
 }
 
-.titleDIP{color: #f1f1f1 }
+.titleDIP{
+    margin-top: 10px;
+    color: #f1f1f1 }
+
 .textDigital{color: #f1f1f1}
 
 .imageInfluence {
     display: block;
-    width: 100%; height: 100%; border-radius: 40px;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
 }
+
 .imageProduction{
-    display: block;width: 100%; height: 100%; border-radius: 40px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
 }
 
 .subtitle{
-    text-align: center; font-family: Poppins; font-size: 29px
+    margin: 20px;
+    text-align: center;
+    font-size: 29px
 }
+
 .overlay {
     position: absolute;
     bottom: 0;
@@ -176,19 +222,19 @@ p {
     height: 100%;
     transition: .5s ease;
 }
+
 .card{
     position: relative;
-    width: 90%;
+    width: 95%;
     height: 65%;
     border-radius: 40px;
 }
 
 .card:hover .overlay {
     width: 100%;
-    border-radius: 40px;
+    border-radius: 15px;
     left: 0;
 }
-
 
 .dsd{
     background-color: #f1f1f1;
@@ -207,9 +253,17 @@ p {
 
 .Infldeux {
     float: left;
-    width: 46%;
-    padding: 0 10px;
-    margin: 1%;
+    width: 48%;
+    padding: 0 14px;
+}
+
+.Ieum{
+    float: left;
+    width: 48%;
+    height: 700px;
+    padding: 0px 14px;
+    /* margin: 1%; */
+    background: #0CBFA4;
 }
 
 .Infltrois {
@@ -217,12 +271,17 @@ p {
     text-align: center;
 }
 
+.Ieum1 {
+    padding: 16px;
+    text-align: center;
+}
+
 .NosInfluenceurs{
-    margin: 3%;
+    width: 100%;
+    margin-top: 5%;
 }
 
 .section5{
-    margin-top: 30%;
     background-color: #EDF0F7;
 }
 
@@ -233,8 +292,8 @@ p {
 
 /* Remove extra left and right margins, due to padding */
 .services{
-    margin: 0;
-    width: 50%;
+    margin: 2px;
+    width: 33%;
     position: relative;
     text-align: center;
 }
@@ -245,15 +304,7 @@ p {
     left: 38%;
 }
 
-.TextService{
-    position: absolute;
-    top: 80%;
-    left: 38%;
-}
 
-.divsection5{
-    margin-top: 50%;
-}
 
 .a{
     float: left;
@@ -266,7 +317,12 @@ p {
 
 .OurServices{
     float: left;
-    width: 50%;
+    width: 100%;
+}
+
+.OurServices1{
+    width: 100%;
+    float: left;
 }
 
 .ServicesList{
@@ -282,44 +338,368 @@ p {
 }
 
 .notreObjectif{
-    font-family:Poppins;
     text-align: center;
     font-size: 40px;
 }
 
 .votreReussite{
-    font-family: Poppins;
     text-align: center;
     font-size: 35px;
     margin-left: 200px;
     color: #FBDC00;
 }
+
+.dfcrple{
+    text-align: center;
+    width: 100%;
+    font-size: 30px
+}
+
+.pineapple{
+    width:50%;
+    height: auto;
+    margin-left:15px;
+    padding: 0 12px;
+}
+
+.divPineapple{
+    margin: 3%;
+}
+
+.videoPhrase{
+    text-align: center;
+    font-size: 40px
+}
+
+.epicVideo{
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%
+}
+
+.teamMemberName{
+    text-align: initial;
+}
+
+.btnjenProfite{
+    width: 30%;
+    height: 60px;
+    color: #0CBFA4;
+    border-radius: 50px;
+    background-color: #FDDD00
+}
+
+.footerServices{
+    margin-left: 150px;
+    margin-right: 150px
+}
+
+.divVide{
+    background-color: #0CBFA4;
+    padding: 20%;
+}
+
+.contactezNous{
+    text-align: center;
+    color: white
+}
+
+.PhraseMetiersAvenir{
+    text-align: center;
+    font-size: 16px;
+}
+
+.deveirInflu{
+    margin: 25%;
+}
+
+.NosH1influ{
+    text-align: center;
+    font-size: 30px;
+}
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #FDDD00;
+    margin-top: 87%
+}
+
+
 /*Responsive web design */
-
 /*For phones*/
-@media screen and (min-width: 320px) and (max-width: 539px) {
+@media screen and (min-width: 375px) and (max-width: 551px) {
 
- .votreReussite{
-        font-size: 25px;
-        margin: 10px
+    .contactezNous{
+        text-align: center;
+        color: white;
+        margin: 25px;
+    }
+  }
+
+@media screen and (min-width: 425px) and (max-width: 551px) {
+
+    .contactezNous{
+        text-align: center;
+        color: white;
+        margin: 45px;
     }
 
+    .ServicesTitle{
+       display: none;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 539px) {
+
+    body{
+        overflow-x: hidden;
+    }
 
     .column{
+        text-align: center;
+        width: 93%;
+        font-size: 30px;
+    }
+
+    .Ieum {
+        float: left;
+        width: 91%;
+        height: 465px;
+        padding: 0 14px;
+        /* margin: 1%; */
+        background: #0CBFA4;
+    }
+
+    .Ieum1{
+        margin-top: -4%;
+    }
+
+    .footerAgency{
         width: 100%;
+        height: 200px;
+        background-color: #FDDD00;
+        margin-top: 47%
+    }
+
+    .footerUl{
+        margin: 100px;
+    }
+
+    .titleDIP{
+        margin-top: -100px;
+        color: #f1f1f1
+    }
+
+    .footer{
+        width: 100%;
+        height: 200px;
+        background-color: #FDDD00;
+        margin-top: 87%
+    }
+
+    .deveirInflu{
+        margin: 0;
+    }
+
+    .footerAgency{
+        width: 100%;
+        height: 425px;
+        background-color: #FDDD00;
+        margin-top: 290%;
+    }
+
+    .textDigital{
+        font-size: 11px;
+        color: #f1f1f1;
+    }
+
+    .Infldeux {
+        float: left;
+        width: 92%;
+        padding: 0 10px;
+        margin: 1%;
+    }
+
+    .spanTextDigital{
+        display: none;
+    }
+
+    .section4 {
+        background-color: #EDF0F7;
+        margin-top: 0;
+    }
+
+    .NosH1influ{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .services{
+        margin: 0;
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    .agencyPrese{
+        margin: 0;
+    }
+
+    .TitleService {
+        position: absolute;
+        top: 70%;
+        left: 24%;
+    }
+
+    .b{
+        background-color: #0CBFA4;
+        text-align: center;
+    }
+
+    .row{
+        position: relative;
+        justify-content: center;
+        flex-direction: row;
+        overflow-x: auto;
+        margin: 5%;
+    }
+
+    .formulaireContact{
+        background-color: #0CBFA4;
+    }
+
+    .PhraseMetiersAvenir{
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .OurServices{
+        float: left;
+        width: 100%;
+        background-color: #0CBFA4;
+    }
+
+    .ServicesList_2{
+        margin-top: 30px;
+        text-align: center;
+        float: none;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 3%;
+        padding: 0;
+        overflow: no-content;
+    }
+
+    li {
+        float: none;
+        color: white;
+    }
+
+    .OurServices1{
+        background-color: #FDDD00;
+    }
+
+    .card{
+        position: relative;
+        width: 100%;
+        height: 65%;
+        border-radius: 40px;
+    }
+
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        min-height: 8vh;
+        background-color: #0CBFA4;
+    }
+
+    .subtitle {
+        margin: 25px;
+        font-size: 29px;
+        text-align: center;
+    }
+
+    .dsd {
+        background-color: #f1f1f1;
+        margin: 0;
+    }
+
+    .agence{
+        float: none;
+        margin: 3%;
+        margin-top: 45%;
+        text-align: center;
+    }
+
+    .profite {
+        border: solid;
+    }
+
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+
+    .votreReussite{
+            font-size: 25px;
+            margin: 10px
+        }
+
+    .nav-links {
+        color: white;
+        margin: 0;
+        width: 50%;
+        position: absolute;
+        right: 0;
+        height: 88vh;
+        top: 12vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #0CBFA4;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+     }
+
+    .nav-active{
+        transform: translateX(0%);
+    }
+
+    .toggle .line1{
+        opacity: 0;
+    }
+
+    .toggle .line2{
+        opacity: 0;
+    }
+
+    .toggle .line3{
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    .column{
+        margin-top: 30%;
+        background-color: #EDF0F7;
         display: block;
         margin-bottom: 20px;
     }
+
     .p_ami{
         font-size: 25px;
     }
 
     .p_lmfael{
+        margin-top: 10px;
         font-size: 12px;
         text-align: center;
     }
+
     .formationsCertifiantes{
-        font-size: 19px;
+        font-size: 17px;
     }
 
     .row2{
@@ -331,34 +711,163 @@ p {
         margin-top: 100%;
     }
 
-    .menu-ifrac{
-        font-size: 10px;
-        /*display: none;*/
-    }
-
-
-    /*logo/
-    les-catégories du menu /
-     Agence de média /
-     "les meuilleurs formations"/
-     button j'n profite/
-     Notre objectif votre réussite
-     */
-
-   /* * {
-        margin: 0;
+    .pineapple{
+        width:100%;
+        height: auto;
+        margin-left:0px;
         padding: 0;
-        font-size: 4px;
     }
-    */
+
+    .divPineapple{
+        margin: 0;
+    }
+
+    .teamMember{
+        width: 250px;
+    }
+
+    .teamMemberName{
+        text-align: center;
+    }
+
+    .videoPhrase{
+        font-size: 20px;
+    }
+
+    .epicVideo{
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+    }
+
+    .a {
+        float: left;
+        width: 100%;
+    }
+
+    .btnjenProfite{
+        width: 48%;
+        height: 60px;
+        color: #0CBFA4;
+        border-radius: 50px;
+        background-color: #FDDD00;
+    }
+
+    .OurServices {
+        margin: 0;
+        width: 100%;
+    }
+
+    ul {
+        list-style-type: none;
+        overflow: no-content;
+    }
+
+    .ServicesList {
+        text-align: center;
+    }
+
+    .ServicesList_2{
+        text-align: center;
+    }
+
+    .footerServices{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .divVide{
+        background-color: #0CBFA4;
+        padding: 30%;
+    }
 }
 
 /*For Tablets*/
-@media screen and (min-width: 768px) and (max-width: 539px) {
+@media screen and (min-width: 735px) and (max-width: 768px) {
+
+    .p_lmfael {
+        font-size: 13px;
+        color: #0CBFA4;
+    }
+
+    .agence {
+        margin: 3%;
+    }
+
+    .p_ami {
+        font-size: 58px;
+    }
+
+    .videoPhrase {
+        margin-top: 300px;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    .ServicesList{
+        display: inline-flex;
+    }
+
+    .ServicesList_2{
+        display: inline-flex;
+    }
+
+    .OurServices1 {
+        width: 100%;
+        float: none;
+    }
+
+    li {
+        padding: 10px 10px;
+        float: left;
+    }
+
+    .column{
+        width: 100%;
+        padding: 0 10px;
+    }
+
+    .imageDigital {
+        display: block;
+        height: 100%;
+        border-radius: 40px;
+    }
+
+    .card {
+        position: relative;
+        width: 100%;
+        height: 65%;
+        border-radius: 40px;
+    }
+
+    .p_lmfael{
+     color: #1a202c;
+    }
+
+    .profite{
+        border: 2px solid white;
+    }
+
+    .divPineapple {
+        margin: 0;
+    }
+
+
+    .pineapple {
+        width: 100%;
+        height: auto;
+        margin-left: 15px;
+        padding: 0 12px;
+    }
+
+    nav {
+        font-size: 9px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
 
 }
 
 /*For Laptop*/
-@media screen and (min-width: 1024px) and (max-width: 719px) {
-
-}
+@media screen and  (max-width: 768px) and (min-width: 1024px)  { }

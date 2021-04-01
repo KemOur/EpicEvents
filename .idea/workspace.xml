@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56f81e3e-a558-46e8-8469-71a6ac6d7b9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/agencyimg1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/img/burger.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/openMenu.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/agency.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/agency.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/partials/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/footer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/partials/header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/header.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
@@ -192,7 +193,20 @@
       <workItem from="1615893522028" duration="17940000" />
       <workItem from="1615973859515" duration="1704000" />
       <workItem from="1615976296438" duration="18513000" />
-      <workItem from="1616062799396" duration="3209000" />
+      <workItem from="1616062799396" duration="18464000" />
+      <workItem from="1616146139884" duration="364000" />
+      <workItem from="1616158562028" duration="4973000" />
+      <workItem from="1616440731388" duration="3492000" />
+      <workItem from="1616447990766" duration="1620000" />
+      <workItem from="1616496569230" duration="1048000" />
+      <workItem from="1616586135418" duration="216000" />
+      <workItem from="1616586602018" duration="2561000" />
+      <workItem from="1616664740199" duration="746000" />
+      <workItem from="1616687352073" duration="2308000" />
+      <workItem from="1616751976675" duration="17002000" />
+      <workItem from="1617140767258" duration="1284000" />
+      <workItem from="1617179886680" duration="20289000" />
+      <workItem from="1617267636679" duration="14455000" />
     </task>
     <servers />
   </component>
@@ -228,22 +242,30 @@
     </state>
     <state width="1398" height="165" key="GridCell.Tab.0.right/0.25.1440.801@0.25.1440.801" timestamp="1615369973457" />
     <state width="1398" height="165" key="GridCell.Tab.0.right/0.25.1440.807@0.25.1440.807" timestamp="1615371370374" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1615983748782">
-      <screen x="0" y="25" width="1440" height="805" />
+    <state width="500" height="450" key="SwitcherDM" timestamp="1617224861734">
+      <screen x="0" y="25" width="1440" height="813" />
     </state>
+    <state width="500" height="442" key="SwitcherDM/0.25.1440.799@0.25.1440.799" timestamp="1616075803750" />
     <state width="500" height="445" key="SwitcherDM/0.25.1440.805@0.25.1440.805" timestamp="1615983748782" />
-    <state x="399" y="252" key="com.intellij.ide.util.TipDialog" timestamp="1616062801791">
-      <screen x="0" y="25" width="1440" height="799" />
+    <state width="500" height="450" key="SwitcherDM/0.25.1440.813@0.25.1440.813" timestamp="1617224861734" />
+    <state x="399" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1617267648721">
+      <screen x="0" y="25" width="1440" height="813" />
     </state>
-    <state x="399" y="252" key="com.intellij.ide.util.TipDialog/0.25.1440.799@0.25.1440.799" timestamp="1616062801791" />
+    <state x="399" y="252" key="com.intellij.ide.util.TipDialog/0.25.1440.799@0.25.1440.799" timestamp="1616146141661" />
     <state x="399" y="252" key="com.intellij.ide.util.TipDialog/0.25.1440.801@0.25.1440.801" timestamp="1615976295945" />
     <state x="399" y="253" key="com.intellij.ide.util.TipDialog/0.25.1440.804@0.25.1440.804" timestamp="1615458405729" />
+    <state x="399" y="256" key="com.intellij.ide.util.TipDialog/0.25.1440.813@0.25.1440.813" timestamp="1617267648721" />
     <state x="399" y="257" key="com.intellij.ide.util.TipDialog/0.25.1440.817@0.25.1440.817" timestamp="1615893523314" />
-    <state x="577" y="151" width="816" height="550" key="find.popup" timestamp="1616065861592">
-      <screen x="0" y="25" width="1440" height="799" />
+    <state x="577" y="154" width="816" height="562" key="find.popup" timestamp="1616446065678">
+      <screen x="0" y="25" width="1440" height="815" />
     </state>
-    <state x="577" y="151" width="816" height="550" key="find.popup/0.25.1440.799@0.25.1440.799" timestamp="1616065861592" />
+    <state x="577" y="151" width="816" height="550" key="find.popup/0.25.1440.799@0.25.1440.799" timestamp="1616074778510" />
     <state x="577" y="152" width="816" height="550" key="find.popup/0.25.1440.804@0.25.1440.804" timestamp="1615563674362" />
     <state x="577" y="152" width="816" height="551" key="find.popup/0.25.1440.805@0.25.1440.805" timestamp="1615988043967" />
+    <state x="577" y="154" width="816" height="562" key="find.popup/0.25.1440.815@0.25.1440.815" timestamp="1616446065678" />
+    <state x="369" y="152" width="700" height="530" key="recent.locations.popup" timestamp="1616442419898">
+      <screen x="0" y="25" width="1440" height="814" />
+    </state>
+    <state x="369" y="152" width="700" height="530" key="recent.locations.popup/0.25.1440.814@0.25.1440.814" timestamp="1616442419898" />
   </component>
 </project>

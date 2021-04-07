@@ -39,7 +39,6 @@
                     <li style="padding: 0 25px;"><img src="./img/snapchat.png"></li>
                     <li style="padding: 0 25px;"><img src="./img/snapchat.png"></li>
                     <li style="padding: 0 25px;"><img src="./img/snapchat.png"></li>
-                    <li style="padding: 0 25px;"><img src="./img/snapchat.png"></li>
             </ul>
         </div>
 </div>

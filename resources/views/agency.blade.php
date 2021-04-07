@@ -3,7 +3,7 @@
 <div class="divPineapple">
 <div class="agencyPrese">
     <div class="imageAgence">
-        <img src="./img/agencyimg1.png" alt="Pineapple" class="pineapple" style="float: left"><br>
+        <img src="./img/agencyimg1.png" alt="Pineapple" class="pineapple2"><br>
     </div>
 
     <div>
@@ -24,7 +24,7 @@
 </div>
 <div class="agencyPrese">
     <div class="imageAgence">
-        <img src="./img/agencyimg1.png" alt="Pineapple"  class="pineapple" style="float: right">
+        <img src="./img/agencyimg1.png" alt="Pineapple"  class="pineapple">
     </div>
 
     <div>

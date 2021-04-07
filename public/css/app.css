@@ -79,6 +79,7 @@ body {
 
 .canelo2{
     padding: 4%;
+    font-size: 10px;
 }
 
 .canelo3{
@@ -448,10 +449,18 @@ p {
 
 .pineapple{
     float: right;
+    width: 50%;
+    height: auto;
+    margin-left: 0;
+    padding: 0 0;
 }
 
 .pineapple2{
     float: left;
+    width: 50%;
+    height: auto;
+    margin-left: 0;
+    padding: 0 10px;
 }
 
 .notreObjectif{
@@ -472,15 +481,9 @@ p {
     font-size: 30px
 }
 
-.pineapple{
-    width:50%;
-    height: auto;
-    margin-left:15px;
-    padding: 0 12px;
-}
-
 .divPineapple{
-    margin: 3%;
+    margin: 0 10% 0%;
+
 }
 
 .videoPhrase{
@@ -558,7 +561,6 @@ p {
 
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
-
     header{
         overflow: hidden;
         height: 100vh;
@@ -637,7 +639,7 @@ p {
     }
 
     .footerColor {
-        height: 69pc;
+        height: 73pc;
         margin: 0;
     }
 
@@ -695,7 +697,6 @@ p {
         width: 92%;
         height: 465px;
         padding: 0 14px;
-        background: #0CBFA4;
     }
 
     .nav-links {
@@ -777,7 +778,460 @@ p {
     .section4 {
         background-color: #EDF0F7;
         margin-top: 0;
-        height: 330pc;
+        height: 322pc;
+    }
+
+    .NosH1influ{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .services{
+        margin: 0;
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    .agencyPrese{
+        margin: 0;
+        height: 700px;
+    }
+
+    .TitleService {
+        position: absolute;
+        top: 70%;
+        left: 24%;
+    }
+
+    .b{
+        background-color: #0CBFA4;
+        text-align: center;
+    }
+
+    .row{
+        position: relative;
+        justify-content: center;
+        flex-direction: row;
+        overflow-x: auto;
+        margin: 5%;
+        height: 98pc;
+
+
+    }
+
+    .formulaireContact{
+        background-color: #0CBFA4;
+    }
+
+    .PhraseMetiersAvenir{
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .OurServices{
+        float: left;
+        width: 100%;
+        background-color: #0CBFA4;
+    }
+
+    .ServicesList_2{
+        margin-top: 30px;
+        text-align: center;
+        float: none;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 3%;
+        padding: 0;
+        overflow: no-content;
+    }
+
+    li {
+        float: none;
+        color: white;
+    }
+
+    .OurServices1{
+        background-color: #FDDD00;
+    }
+
+    .card{
+        position: relative;
+        width: 100%;
+        height: 65%;
+        border-radius: 40px;
+    }
+
+
+    .subtitle {
+        margin: 25px;
+        font-size: 29px;
+        text-align: center;
+    }
+
+    .agence{
+        float: none;
+        margin: 3%;
+        margin-top: 45%;
+        text-align: center;
+    }
+
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+
+    .votreReussite{
+        font-size: 25px;
+        margin: 10px
+    }
+
+    .nav-active{
+        transform: translateX(0%);
+    }
+
+    .toggle .line1{
+        opacity: 0;
+    }
+
+    .toggle .line2{
+        opacity: 0;
+    }
+
+    .toggle .line3{
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    .column{
+        margin-top: 0;
+        background-color: #EDF0F7;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .p_ami {
+        margin-top: 30pc;
+        font-size: 18px;
+    }
+
+    .formationsCertifiantes{
+        font-size: 16px;
+    }
+
+    .row2{
+        display: initial;
+        justify-content: center;
+    }
+
+    .img-bg {
+        margin-top: 100%;
+    }
+
+    .pineapple{
+        width:100%;
+        height: auto;
+        margin-left:0px;
+        padding: 0;
+    }
+
+    .pineapple2{
+        width:100%;
+        height: auto;
+        margin-left:0px;
+        padding: 0;
+    }
+
+    .divPineapple{
+        margin: 0;
+    }
+
+    .teamMember{
+        width: 250px;
+    }
+
+    .teamMemberName{
+        text-align: center;
+    }
+
+    .videoPhrase{
+        font-size: 20px;
+    }
+
+    .epicVideo{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .a {
+        float: left;
+        width: 100%;
+    }
+
+    .btnjenProfite{
+        width: 48%;
+        height: 60px;
+        color: #0CBFA4;
+        border-radius: 50px;
+        background-color: #FDDD00;
+    }
+
+    .OurServices {
+        margin: 0;
+        width: 100%;
+    }
+
+    ul {
+        list-style-type: none;
+        overflow: no-content;
+    }
+
+    .ServicesList {
+        text-align: center;
+    }
+
+    .ServicesList_2{
+        text-align: center;
+    }
+
+    .footerServices{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .divVide{
+        background-color: #0CBFA4;
+        padding: 30%;
+    }
+
+}
+
+
+/*All phones*/
+
+
+/* iphone X , XS, 11 Pro, 12 Mini */
+@media only screen and (min-device-width: 375px) and (max-device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    header{
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .logo{
+        padding: 0 155px;
+        padding-left: 0;
+    }
+
+    .profite {
+        background-color: #0CBFA4;
+        border: none;
+        color: white;
+        padding: 2px 26px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        align-content: center;
+        border-radius: 45px;
+    }
+
+    .imageAgence {
+        height: 210px;
+    }
+
+    .golovkin {
+        width: 100%;
+        float: left;
+        height: 320px;
+    }
+
+    .videoPhrase{
+        margin: 20px;
+    }
+
+    .canelo3{
+        height: 195pc;
+    }
+
+    .canelo4{
+        text-align: center;
+    }
+
+    .inputForm{
+        width: 80%;
+        height: 60px;
+        border-radius: 50px;
+        padding: 0 25px;
+        margin-top: 10px
+    }
+
+    .caleno1{
+        font-size: 25px;
+        margin: 30px;
+    }
+
+    .canelo{
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 175pc;
+    }
+
+    .canelo{
+        margin: 45px;
+    }
+
+    .divPineapple {
+        height: 82pc;
+    }
+
+    .footerColor {
+        height: 73pc;
+        margin: 0;
+    }
+
+    .section5 {
+        background-color: #EDF0F7;
+        height: 1300px;
+    }
+
+    .dsd {
+        margin-top: 0;
+        height: 800px;
+    }
+
+    .column{
+        text-align: center;
+        width: 93%;
+        font-size: 30px;
+    }
+
+    .column3{
+        margin-top: 60px;
+    }
+
+    .notreObjectif {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .img_logo{
+        width: 75px;
+        height: 40px;
+        margin: 14px;
+    }
+
+    .img_service{
+        width: 100%;
+        margin-top: 30px;
+        height: auto;
+    }
+
+    .ul200 {
+        margin-left: 30px;
+        margin-top: 35px;
+    }
+
+    .Ieum12{
+        color: white;
+        margin-top: 110px;
+        font-size: 30px;
+    }
+
+    .Ieum {
+        float: left;
+        width: 92%;
+        height: 465px;
+        padding: 0 14px;
+    }
+
+    .nav-links {
+        color: white;
+        margin: 0;
+        width: 50%;
+        position: absolute;
+        right: 0;
+        height: 103vh;
+        top: 12vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #0CBFA4;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+    #divThomas {
+        background-image: url(./../img/imagemobile.png);
+        /* background-size: cover; */
+        background-repeat: no-repeat;
+        /* background-position: right; */
+    }
+
+    .Ieum1{
+        margin-top: -12%;
+    }
+
+    .footerAgency{
+        width: 100%;
+        height: 200px;
+        background-color: #FDDD00;
+        margin-top: 47%
+    }
+
+    .footerUl{
+        margin: 100px;
+    }
+
+    .titleDIP{
+        margin-top: -100px;
+        color: #f1f1f1
+    }
+
+    .footer{
+        width: 100%;
+        height: 500px;
+        background-color: #FDDD00;
+    }
+
+    .deveirInflu{
+        margin: 0;
+    }
+
+    .footerAgency{
+        width: 100%;
+        height: 425px;
+        background-color: #FDDD00;
+        margin-top: 290%;
+    }
+
+    .textDigital{
+        font-size: 10px;
+        color: #f1f1f1;
+    }
+
+    .Infldeux {
+        float: left;
+        width: 92%;
+        padding: 0 10px;
+        margin: 1%;
+    }
+
+    .spanTextDigital{
+        display: none;
+    }
+
+    .section4 {
+        background-color: #EDF0F7;
+        margin-top: 0;
+        height: 322pc;
     }
 
     .NosH1influ{
@@ -882,9 +1336,9 @@ p {
     }
 
     .votreReussite{
-            font-size: 25px;
-            margin: 10px
-        }
+        font-size: 25px;
+        margin: 10px
+    }
 
     .nav-active{
         transform: translateX(0%);
@@ -934,6 +1388,13 @@ p {
         padding: 0;
     }
 
+    .pineapple2{
+        width:100%;
+        height: auto;
+        margin-left:0px;
+        padding: 0;
+    }
+
     .divPineapple{
         margin: 0;
     }
@@ -951,9 +1412,9 @@ p {
     }
 
     .epicVideo{
-      width: 100%;
-      margin-left: 0;
-      margin-right: 0;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
 
     .a {
@@ -998,8 +1459,449 @@ p {
     }
 }
 
+/* iphone 6+, 6s+, 7+, 8+ */
+@media only screen and (min-device-width: 414px) and (max-device-height: 736px) and (-webkit-device-pixel-ratio: 3) {
+    header{
+        overflow: hidden;
+        height: 100vh;
+    }
+
+    body{
+        overflow-x: hidden;
+    }
+
+    .logo{
+        padding: 0 155px;
+        padding-left: 0;
+    }
+
+    .profite {
+        background-color: #0CBFA4;
+        border: none;
+        color: white;
+        padding: 2px 26px;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        align-content: center;
+        border-radius: 45px;
+    }
+
+    .imageAgence {
+        height: 210px;
+    }
+
+    .golovkin {
+        width: 100%;
+        float: left;
+        height: 320px;
+    }
+
+    .videoPhrase{
+        margin: 20px;
+    }
+
+    .canelo3{
+        height: 195pc;
+    }
+
+    .canelo4{
+        text-align: center;
+    }
+
+    .inputForm{
+        width: 80%;
+        height: 60px;
+        border-radius: 50px;
+        padding: 0 25px;
+        margin-top: 10px
+    }
+
+    .caleno1{
+        font-size: 25px;
+        margin: 30px;
+    }
+
+    .canelo{
+        margin-left: 10%;
+        margin-right: 10%;
+        height: 175pc;
+    }
+
+    .canelo{
+        margin: 45px;
+    }
+
+    .divPineapple {
+        height: 82pc;
+    }
+
+    .footerColor {
+        height: 63pc;
+
+        margin: 0;
+    }
+
+    .section5 {
+        background-color: #EDF0F7;
+        height: 1645px;
+    }
+
+    .dsd {
+        margin-top: 0;
+        height: 800px;
+    }
+
+    .column{
+        text-align: center;
+        width: 93%;
+        font-size: 30px;
+    }
+
+    .column3{
+        margin-top: 60px;
+    }
+
+    .notreObjectif {
+        margin-top: 15px;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .img_logo{
+        width: 75px;
+        height: 40px;
+        margin: 14px;
+    }
+
+    .img_service{
+        width: 100%;
+        margin-top: 30px;
+        height: auto;
+    }
+
+    .ul200 {
+        margin-left: 30px;
+        margin-top: 35px;
+    }
+
+    .Ieum12{
+        color: white;
+        margin-top: 110px;
+        font-size: 30px;
+    }
+
+    .Ieum {
+        float: left;
+        width: 92%;
+        height: 465px;
+        padding: 0 14px;
+    }
+
+    .nav-links {
+        color: white;
+        margin: 0;
+        width: 50%;
+        position: absolute;
+        right: 0;
+        height: 103vh;
+        top: 12vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #0CBFA4;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+    #divThomas {
+        background-image: url(./../img/imagemobile.png);
+        /* background-size: cover; */
+        background-repeat: no-repeat;
+        /* background-position: right; */
+    }
+
+    .Ieum1{
+        margin-top: -12%;
+    }
+
+    .footerAgency{
+        width: 100%;
+        height: 200px;
+        background-color: #FDDD00;
+        margin-top: 47%
+    }
+
+    .footerUl{
+        margin: 100px;
+    }
+
+    .titleDIP{
+        margin-top: -100px;
+        color: #f1f1f1
+    }
+
+    .footer{
+        width: 100%;
+        height: 500px;
+        background-color: #FDDD00;
+    }
+
+    .deveirInflu{
+        margin: 0;
+    }
+
+    .footerAgency{
+        width: 100%;
+        height: 425px;
+        background-color: #FDDD00;
+        margin-top: 290%;
+    }
+
+    .textDigital{
+        font-size: 10px;
+        color: #f1f1f1;
+    }
+
+    .Infldeux {
+        float: left;
+        width: 92%;
+        padding: 0 10px;
+        margin: 1%;
+    }
+
+    .spanTextDigital{
+        display: none;
+    }
+
+    .section4 {
+        background-color: #EDF0F7;
+        margin-top: 0;
+        height: 322pc;
+    }
+
+    .NosH1influ{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .services{
+        margin: 0;
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+
+    .agencyPrese{
+        margin: 0;
+        height: 700px;
+    }
+
+    .TitleService {
+        position: absolute;
+        top: 70%;
+        left: 24%;
+    }
+
+    .b{
+        background-color: #0CBFA4;
+        text-align: center;
+    }
+
+    .row{
+        position: relative;
+        justify-content: center;
+        flex-direction: row;
+        overflow-x: auto;
+        margin: 5%;
+        height: 106pc;
+    }
+
+    .formulaireContact{
+        background-color: #0CBFA4;
+    }
+
+    .PhraseMetiersAvenir{
+        text-align: center;
+        font-size: 10px;
+    }
+
+    .OurServices{
+        float: left;
+        width: 100%;
+        background-color: #0CBFA4;
+    }
+
+    .ServicesList_2{
+        margin-top: 30px;
+        text-align: center;
+        float: none;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 3%;
+        padding: 0;
+        overflow: no-content;
+    }
+
+    li {
+        float: none;
+        color: white;
+    }
+
+    .OurServices1{
+        background-color: #FDDD00;
+    }
+
+    .card{
+        position: relative;
+        width: 100%;
+        height: 65%;
+        border-radius: 40px;
+    }
 
 
-/*Laptop*/
+    .subtitle {
+        margin: 25px;
+        font-size: 29px;
+        text-align: center;
+    }
 
+    .agence{
+        float: none;
+        margin: 3%;
+        margin-top: 45%;
+        text-align: center;
+    }
 
+    .burger{
+        display: block;
+        cursor: pointer;
+    }
+
+    .votreReussite{
+        font-size: 25px;
+        margin: 10px
+    }
+
+    .nav-active{
+        transform: translateX(0%);
+    }
+
+    .toggle .line1{
+        opacity: 0;
+    }
+
+    .toggle .line2{
+        opacity: 0;
+    }
+
+    .toggle .line3{
+        transform: rotate(45deg) translate(-5px, -6px);
+    }
+
+    .column{
+        margin-top: 0;
+        background-color: #EDF0F7;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .p_ami {
+        margin-top: 30pc;
+        font-size: 18px;
+    }
+
+    .formationsCertifiantes{
+        font-size: 16px;
+    }
+
+    .row2{
+        display: initial;
+        justify-content: center;
+    }
+
+    .img-bg {
+        margin-top: 100%;
+    }
+
+    .pineapple{
+        width:100%;
+        height: auto;
+        margin-left:0px;
+        padding: 0;
+    }
+
+    .pineapple2{
+        width:100%;
+        height: auto;
+        margin-left:0px;
+        padding: 0;
+    }
+
+    .divPineapple{
+        margin: 0;
+    }
+
+    .teamMember{
+        width: 250px;
+    }
+
+    .teamMemberName{
+        text-align: center;
+    }
+
+    .videoPhrase{
+        font-size: 20px;
+    }
+
+    .epicVideo{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .a {
+        float: left;
+        width: 100%;
+    }
+
+    .btnjenProfite{
+        width: 48%;
+        height: 60px;
+        color: #0CBFA4;
+        border-radius: 50px;
+        background-color: #FDDD00;
+    }
+
+    .OurServices {
+        margin: 0;
+        width: 100%;
+    }
+
+    ul {
+        list-style-type: none;
+        overflow: no-content;
+    }
+
+    .ServicesList {
+        text-align: center;
+    }
+
+    .ServicesList_2{
+        text-align: center;
+    }
+
+    .footerServices{
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .divVide{
+        background-color: #0CBFA4;
+        padding: 30%;
+    }
+}

@@ -24,10 +24,16 @@ body {
     background-color: #EDF0F7;
 }
 
-
 .logo{
     padding: 4px 50px;
     padding-left: 0;
+}
+
+.bgw_detail{
+    background: white;
+    height: 20px;
+    margin: -30px 760px 0;
+    width: 105px;
 }
 
 .footerColor {
@@ -570,6 +576,10 @@ p {
         overflow-x: hidden;
     }
 
+    .bgw_detail{
+        display: none;
+    }
+
     .logo{
         padding: 0 155px;
         padding-left: 0;
@@ -912,7 +922,7 @@ p {
     }
 
     .p_ami {
-        margin-top: 30pc;
+        margin-top: 29pc;
         font-size: 18px;
     }
 
@@ -932,14 +942,14 @@ p {
     .pineapple{
         width:100%;
         height: auto;
-        margin-left:0px;
+        margin-left:0;
         padding: 0;
     }
 
     .pineapple2{
         width:100%;
         height: auto;
-        margin-left:0px;
+        margin-left:0;
         padding: 0;
     }
 
@@ -1023,6 +1033,10 @@ p {
         overflow-x: hidden;
     }
 
+    .bgw_detail{
+        display: none;
+    }
+
     .logo{
         padding: 0 155px;
         padding-left: 0;
@@ -1364,7 +1378,7 @@ p {
     }
 
     .p_ami {
-        margin-top: 30pc;
+        margin-top: 36pc;
         font-size: 18px;
     }
 

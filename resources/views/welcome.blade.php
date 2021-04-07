@@ -1,6 +1,7 @@
 @include('partials.header')
                 <p class="notreObjectif">Notre objectif</p>
-                <p class="votreReussite">Votre <span style="background-color: white">réussite</span> </p>
+                <p class="votreReussite">Votre <span style="">réussite</span> </p>
+                   <div class="bgw_detail"> </div>
         <div class="row">
             <div class="column">
                 <div class="card">

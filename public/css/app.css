@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    /*font-family: Poppins, sans-serif;*/
     font-family: Kalam, sans-serif;
 }
 
@@ -17,7 +16,6 @@
 /* HEADER */
 header{
     overflow: hidden;
-    height: 115vh;
 }
 
 body {
@@ -114,7 +112,7 @@ body {
 #divThomas{
     background-repeat: no-repeat;
     background-image: url("./../img/imgx.png");
-    background-size: 100% 87%;
+    background-size: 100% 100%;
 }
 
 .img_service{
@@ -420,7 +418,7 @@ p {
 
 /* Remove extra left and right margins, due to padding */
 .services{
-    margin: 1;
+    margin: 1px;
     width: 33%;
     position: relative;
     text-align: center;
@@ -510,6 +508,7 @@ p {
 }
 
 .btnjenProfite{
+    cursor: pointer;
     outline: none;
     border: none;
     width: 40%;

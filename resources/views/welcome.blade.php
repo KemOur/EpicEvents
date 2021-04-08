@@ -147,7 +147,7 @@
         <br>
         <p id="Nos_influenceurs" class="NosH1influ">Nos influenceurs </p><br>
 
-        <p  class="PhraseMetiersAvenir" style="margin-left: 20%; margin-right: 20%">
+        <p  class="PhraseMetiersAvenir">
             Décrocher un certificat sans se déplacer, c’est simple ! Que vous soyiez à Paris,
             Lyon ou n’importe oû,<br> vous pouvez apprendre depuis votre ordinateur.
         </p>

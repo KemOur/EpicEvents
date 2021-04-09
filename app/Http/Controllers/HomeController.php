@@ -1,8 +1,11 @@
 <?php
-
 namespace App\Http\Controllers;
 
+use App\Http\Requests\ContactRequest;
+use App\Mail\ContactMe;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Config;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Mail;
 
 class HomeController extends Controller
@@ -13,15 +16,30 @@ class HomeController extends Controller
     }
     //
 
-    public function store()
+    public function store(ContactRequest $request)
     {
-        request()->validate(['email' => 'required|email']);
-            Mail::raw('Contact depuis le site EpicEvents', function ($message){
-                    $message->to(request('email'))->subject('EpicEvents');
-                });
-        return redirect('/')
-            ->with("message", 'Votre messagé a bien été envoyé !');
+        $params = [
+            'firstname' => $request->get('firstname'),
+            'lastname' => $request->get('lastname'),
+            'email' => $request->get('email'),
+            'tel' => $request->get('tel'),
+            'sujet' => $request->get('sujet'),
+            "subject" => "Demande envoyé 🥳"
+        ];
 
+        DB::table('contact')->insert([
+            'firstname' => $request['firstname'],
+            'lastname' => $request['lastname'],
+            'email' => $request['email'],
+            'tel' => $request['tel'],
+            'sujet' => $request['sujet'],
+        ]);
+
+
+        Mail::to(Config::get('contact.email'))->send(new ContactMe($params));
+        //return directement des messages, bien enregistré ou le truc est fermé ce jour la!
+        return redirect('/')
+            ->with('status','Nous vous confirmons votre Demandé 🤗!');
         /*
         $email = request ('email');
         dd($email);

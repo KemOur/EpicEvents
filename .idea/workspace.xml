@@ -2,22 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56f81e3e-a558-46e8-8469-71a6ac6d7b9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Mail/ContactMe.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/brand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/communication.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/evenement.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/management.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/marketing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/relation.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/team_pic.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/img/team_pic2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/emails/contact-me.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Requests/ContactRequest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/contact.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_04_09_203306_create_contact_table.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/HomeController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/agency.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/agency.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Mail/ContactMe.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Mail/ContactMe.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/emails/contact-me.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/emails/contact-me.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/partials/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/welcome.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +230,7 @@
       <workItem from="1617870122352" duration="2783000" />
       <workItem from="1617887745407" duration="1226000" />
       <workItem from="1617912626862" duration="6712000" />
-      <workItem from="1617960856899" duration="15725000" />
+      <workItem from="1617960856899" duration="23768000" />
     </task>
     <servers />
   </component>
@@ -257,6 +250,10 @@
     </state>
     <state x="108" y="234" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.805@0.25.1440.805" timestamp="1615381472130" />
     <state x="108" y="236" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1440.813@0.25.1440.813" timestamp="1617790331351" />
+    <state x="81" y="190" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1617996764638">
+      <screen x="0" y="25" width="1440" height="813" />
+    </state>
+    <state x="81" y="190" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.25.1440.813@0.25.1440.813" timestamp="1617996764638" />
     <state width="1398" height="165" key="GridCell.Tab.0.bottom" timestamp="1615371370374">
       <screen x="0" y="25" width="1440" height="807" />
     </state>

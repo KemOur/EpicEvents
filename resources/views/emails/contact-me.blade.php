@@ -9,7 +9,16 @@
 </head>
 <body>
 
-<h1>It works Again !</h1>
+<h1>Demande de contacte envoyé! ✅</h1>
 
+<p>{{$sujet}}</p>
+
+<ul>
+    Nom:<li>{{$firstname}}</li>
+    Prénom:<li>{{$lastname}}</li>
+    Email:<li>{{$email}}</li>
+    Numéro de téléphone:<li>{{$tel}}</li>
+
+</ul>
 </body>
 </html>

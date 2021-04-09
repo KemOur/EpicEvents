@@ -10,15 +10,17 @@ use Illuminate\Queue\SerializesModels;
 class ContactMe extends Mailable
 {
     use Queueable, SerializesModels;
+    protected $params;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($params)
     {
         //
+        $this->params = $params;
     }
 
     /**
@@ -26,8 +28,10 @@ class ContactMe extends Mailable
      *
      * @return $this
      */
+
     public function build()
     {
-        return $this->view('emails.contact-me');
+        //return $this->view('emails.contact-me');
+        return $this->subject($this->params['subject'])->view('emails.contact-me', $this->params);
     }
 }

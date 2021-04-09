@@ -47,10 +47,10 @@
             <div class="agence">
                 <p class="p_ami">AGENCE DE MEDIA <br> ET D'INFLUENCE</p>
                 <br>
-                <button class="profite button2">J'en profite </button>
+                <button class="profite button2"><a style="color: white; text-decoration: none" href="#fomulaire">J'en profite </a></button></button>
             </div>
         </div>
 
     </header>
     </div>
-
+</div>

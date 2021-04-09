@@ -16,6 +16,7 @@
 /* HEADER */
 header{
     overflow: hidden;
+    height: 125vh;
 }
 
 body {
@@ -71,6 +72,9 @@ body {
     height: 0;
 }
 
+.allTeamMember{
+    margin-top: 0;
+}
 
 .canelo{
     height: 1100px;
@@ -85,7 +89,7 @@ body {
 
 .canelo2{
     padding: 4%;
-    font-size: 10px;
+    font-size: 18px;
 }
 
 .canelo3{
@@ -102,7 +106,7 @@ body {
 }
 
 .divPineapple{
-    height: 64pc;
+    height: 65pc;
 }
 
 .golovkin{
@@ -186,7 +190,7 @@ nav{
 
 .agencyPrese{
     margin: 120px;
-}
+    height: 28pc;}
 
 .img_logo{
     margin-top: 40px;
@@ -236,6 +240,7 @@ p {
 }
 
 .profite {
+    outline: none;
     background-color: #0CBFA4;
     border: none;
     color: white;
@@ -394,14 +399,14 @@ p {
 }
 
 .Ieum1 {
-    margin-top: 17%;
+    margin-top: 8%;
     padding: 16px;
     text-align: center;
 }
 
 .NosInfluenceurs{
     width: 100%;
-    height: 155pc;
+    height: 140pc;
     margin-top: 5%;
 }
 
@@ -464,7 +469,7 @@ p {
 .pineapple2{
     float: left;
     width: 50%;
-    height: auto;
+    height: 450px;
     margin-left: 0;
     padding: 0 10px;
 }
@@ -488,7 +493,7 @@ p {
 }
 
 .divPineapple{
-    margin: 0 10% 0%;
+    margin: 0 3% 0;
 
 }
 
@@ -572,11 +577,15 @@ p {
 @media screen and (min-width: 320px) and (max-width: 480px) {
     header{
         overflow: hidden;
-        height: 100vh;
+        height: 80vh;
     }
 
     body{
         overflow-x: hidden;
+    }
+
+    .allTeamMember{
+        margin-top: 40pc;
     }
 
     .bgw_detail{
@@ -603,7 +612,7 @@ p {
     }
 
     .imageAgence {
-        height: 210px;
+        height: 32pc;
     }
 
     .golovkin {
@@ -617,7 +626,7 @@ p {
     }
 
     .canelo3{
-        height: 195pc;
+        height: 180pc;
     }
 
     .canelo4{
@@ -652,7 +661,7 @@ p {
     }
 
     .footerColor {
-        height: 73pc;
+        height: 79pc;
         margin: 0;
     }
 
@@ -785,14 +794,10 @@ p {
         margin: 1%;
     }
 
-    .spanTextDigital{
-        display: none;
-    }
-
     .section4 {
         background-color: #EDF0F7;
         margin-top: 0;
-        height: 322pc;
+        height: 278pc;
     }
 
     .NosH1influ{
@@ -809,7 +814,7 @@ p {
 
     .agencyPrese{
         margin: 0;
-        height: 700px;
+        height: 65pc;
     }
 
     .TitleService {
@@ -1037,6 +1042,11 @@ p {
         overflow-x: hidden;
     }
 
+
+    .allTeamMember{
+        margin-top: 40pc;
+    }
+
     .bgw_detail{
         display: none;
     }
@@ -1061,7 +1071,7 @@ p {
     }
 
     .imageAgence {
-        height: 210px;
+        height: 32pc;
     }
 
     .golovkin {
@@ -1075,7 +1085,7 @@ p {
     }
 
     .canelo3{
-        height: 195pc;
+        height: 180pc;
     }
 
     .canelo4{
@@ -1110,7 +1120,7 @@ p {
     }
 
     .footerColor {
-        height: 73pc;
+        height: 78pc;
         margin: 0;
     }
 
@@ -1243,14 +1253,11 @@ p {
         margin: 1%;
     }
 
-    .spanTextDigital{
-        display: none;
-    }
 
     .section4 {
         background-color: #EDF0F7;
         margin-top: 0;
-        height: 322pc;
+        height: 278pc;
     }
 
     .NosH1influ{
@@ -1267,7 +1274,7 @@ p {
 
     .agencyPrese{
         margin: 0;
-        height: 700px;
+        height: 65pc;
     }
 
     .TitleService {
@@ -1489,6 +1496,11 @@ p {
         overflow-x: hidden;
     }
 
+
+    .allTeamMember{
+        margin-top: 40pc;
+    }
+
     .logo{
         padding: 0 155px;
         padding-left: 0;
@@ -1509,7 +1521,7 @@ p {
     }
 
     .imageAgence {
-        height: 210px;
+        height: 32pc;
     }
 
     .golovkin {
@@ -1523,7 +1535,7 @@ p {
     }
 
     .canelo3{
-        height: 195pc;
+        height: 180pc;
     }
 
     .canelo4{
@@ -1558,7 +1570,7 @@ p {
     }
 
     .footerColor {
-        height: 63pc;
+        height: 66pc;
 
         margin: 0;
     }
@@ -1692,14 +1704,11 @@ p {
         margin: 1%;
     }
 
-    .spanTextDigital{
-        display: none;
-    }
 
     .section4 {
         background-color: #EDF0F7;
         margin-top: 0;
-        height: 322pc;
+        height: 278pc;
     }
 
     .NosH1influ{
@@ -1716,7 +1725,7 @@ p {
 
     .agencyPrese{
         margin: 0;
-        height: 700px;
+        height: 65pc;
     }
 
     .TitleService {

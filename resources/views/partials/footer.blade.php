@@ -10,12 +10,20 @@
     <div id="fomulaire" class="Ieum">
         <div class="Ieum1">
             <h1 style="color: white">Contactez-nous:</h1>
-            <form class="formulaireContact" method="post" action="/contact">
+            <form
+
+                class="formulaireContact"
+                method="post"
+                action="/">
                 @csrf
                 <input class="inputForm" type="text" id="firstname" name="firstname" value="{{old('firstname')}}" placeholder="Nom"><br><br>
                 <input class="inputForm" type="text" id="lastname" name="lastname" value="{{old('lastname')}}" placeholder="Prénom"><br><br>
-                <input class="inputForm" type="email" id="email" name="email" value="{{old('email')}}" placeholder="email.gmail.com"><br><br>
-                <input class="inputForm" id="telNo" value="{{old('name')}}"  name="telNo" type="tel" size="20" minlength="10" maxlength="10" placeholder="0102030405"><br><br>
+                <input class="inputForm" type="text" id="email" name="email" value="{{old('email')}}" placeholder="example.gmail.com"><br><br>
+                @error('email')
+                    <div style="font-size: 12px; color: white;">{{$message}}</div>
+                @enderror
+                <input class="inputForm" type="tel" id="tel" name="tel" value="{{old('tel')}}" size="20" minlength="10" maxlength="10" placeholder="0744293829"><br><br>
+                <input class="inputForm" id="subject" value="{{old('subject')}}"  name="subject" type="text" placeholder="Votre demande"><br><br>
                 <button class="btnjenProfite" type="submit"> J'en profite ! </button><br><br>
             </form>
         </div>

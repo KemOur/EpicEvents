@@ -16,12 +16,11 @@ class HomeController extends Controller
     public function store()
     {
         request()->validate(['email' => 'required|email']);
-
-        Mail::raw('Its works', function ($message){
-            $message->to(request('email'))->subject('Hello there');
-        });
-
-        return redirect('/');
+            Mail::raw('Contact depuis le site EpicEvents', function ($message){
+                    $message->to(request('email'))->subject('EpicEvents');
+                });
+        return redirect('/')
+            ->with("message", 'Votre messagé a bien été envoyé !');
 
         /*
         $email = request ('email');

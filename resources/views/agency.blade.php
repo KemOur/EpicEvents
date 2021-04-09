@@ -3,7 +3,7 @@
 <div class="divPineapple">
 <div class="agencyPrese">
     <div class="imageAgence">
-        <img src="./img/lequipe.jpeg" alt="Pineapple" class="pineapple2"><br>
+        <img src="./img/team_pic2.jpg" alt="Pineapple" class="pineapple2"><br>
     </div>
 
     <div>

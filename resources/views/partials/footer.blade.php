@@ -25,6 +25,11 @@
                 <input class="inputForm" type="tel" id="tel" name="tel" value="{{old('tel')}}" size="20" minlength="10" maxlength="10" placeholder="0744293829"><br><br>
                 <input class="inputForm" id="subject" value="{{old('subject')}}"  name="subject" type="text" placeholder="Votre demande"><br><br>
                 <button class="btnjenProfite" type="submit"> J'en profite ! </button><br><br>
+            @if(session("message"))
+                <p style="color: green; background-color: white; font-size: 10px">
+                    {{session ("message")}}
+                </p>
+                @endif
             </form>
         </div>
     </div>

@@ -144,83 +144,83 @@
        <div style="margin-top: 10px">
         <div class="NosInfluenceurs">
             <div class="Infldeux">
-                <div class="Infltrois">
-                    <img src="./img/claudine.png">
+                <div class="Infltrois" style="float: right;">
+                    <img src="./img/claudine.png" style="width: 200px; float: right;">
                     <p style="text-align: center">@Claudineitsme</p>
                 </div>
             </div>
 
             <div class="Infldeux">
-                <div class="Infltrois">
-                    <img src="./img/influ/farid.png">
+                <div class="Infltrois" style="float: left;">
+                    <img src="./img/influ/farid.png" style="width: 200px;">
                     <p style="text-align: center">@farid_bensalah</p>
                 </div>
             </div>
 
             <div class="Infldeux">
-                <div class="Infltrois">
-                    <img src="./img/influ/marvin.png">
+                <div class="Infltrois" style="float: right;">
+                    <img src="./img/influ/marvin.png" style="width: 200px; float: right;">
                     <p style="text-align: center">@Mvrvin_tmvl</p>
                 </div>
             </div>
 
             <div class="Infldeux">
-                <div class="Infltrois">
-                    <img src="./img/influ/marine.png">
+                <div class="Infltrois" style="float: left;">
+                    <img src="./img/influ/marine.png" style="width: 200px;">
                     <p style="text-align: center">@marine_mkdm</p>
                 </div>
             </div>
 
             <div class="Infldeux">
-                <div class="Infltrois">
-                    <img src="./img/influ/kam.png">
+                <div class="Infltrois" style="float: right;">
+                    <img src="./img/influ/kam.png" style="width: 200px; float: right;">
                     <p style="text-align: center">@kam.bellah</p>
                 </div>
             </div>
 
             <div class="Infldeux">
-                <div class="Infltrois">
-                    <img src="./img/influ/ines.png">
+                <div class="Infltrois" style="float: left;">
+                    <img src="./img/influ/ines.png" style="width: 200px;">
                     <p style="text-align: center">@Ines_bellah</p>
                 </div>
             </div>
 
             <div class="Infldeux">
-                <div class="Infltrois">
-                    <img src="./img/influ/twins.png">
+                <div class="Infltrois" style="float: right;">
+                    <img src="./img/influ/twins.png" style="width: 200px; float: right;">
                     <p style="text-align: center">@laylahaicha_twins</p>
                 </div>
             </div>
 
             <div class="Infldeux">
-                <div class="Infltrois">
-                    <img src="./img/influ/maedonette.png">
+                <div class="Infltrois" style="float: left;">
+                    <img src="./img/influ/maedonette.png" style="width: 200px;">
                     <p style="text-align: center">@maedounette</p>
                 </div>
             </div>
 
             <div class="Infldeux">
-                <div class="Infltrois">
-                    <img src="./img/influ/lesfripuilles.png">
+                <div class="Infltrois" style="float: right;">
+                    <img src="./img/influ/lesfripuilles.png" style="width: 200px; float: right;">
                     <p style="text-align: center">@lesfripouilles</p>
                 </div>
             </div>
 
             <div class="Infldeux">
-                <div class="Infltrois">
-                    <img src="./img/influ/sakina.png">
+                <div class="Infltrois" style="float: left;">
+                    <img src="./img/influ/sakina.png" style="width: 200px;">
                     <p style="text-align: center">@sakina_family</p>
                 </div>
             </div>
             <div class="Infldeux">
-                <div class="Infltrois">
-                    <img src="./img/influ/mayariff.png">
+                <div class="Infltrois" style="float: right;">
+                    <img src="./img/influ/mayariff.png" style="width: 200px; float: right;">
                     <p style="text-align: center">@Mayariif</p>
                 </div>
             </div>
             <div class="Infldeux">
-                <div class="Infltrois">
-                    <img src="./img/influ/samir.png">
+                <div class="Infltrois" style="float: left;">
+                    <img src="./img/influ/samir.png" style="width: 200px;">
                     <p style="text-align: center">@insta_samir</p>
                 </div>
             </div>
@@ -236,43 +236,43 @@
     <div class="section5">
             <div class="services">
                 <div class="service">
-                    <img src="./img/background.png" style="width: 100%; height: 100%" class="img_service">
-                    <h3 style="text-align: center" class="TitleService">Title de nos services1</h3>
+                    <img src="./img/brand.png" style="width: 100%; height: 100%" class="img_service">
+                    <strong><p class="TitleService">BRAND CONTENT</p></strong>
                 </div>
             </div>
 
             <div class="services">
                 <div class="service">
-                    <img src="./img/background.png" style="width: 100%; height: 100%" class="img_service">
-                    <h3 style="text-align: center" class="TitleService">Title de nos services1</h3>
+                    <img src="./img/communication.png" style="width: 100%; height: 100%" class="img_service">
+                    <h3 style="text-align: center" class="TitleService">COMMUNICATION</h3>
                 </div>
             </div>
 
             <div class="services">
                 <div class="service">
-                    <img src="./img/background.png" style="width: 100%; height: 100%" class="img_service">
-                    <h3 style="text-align: center" class="TitleService">Title de nos services1</h3>
+                    <img src="./img/evenement.png" style="width: 100%; height: 100%" class="img_service">
+                    <h3 style="text-align: center" class="TitleService">EVENEMENT</h3>
                 </div>
             </div>
 
             <div class="services">
                 <div class="service">
-                    <img src="./img/background.png" style="width: 100%; height: 100%" class="img_service">
-                    <h3 style="text-align: center" class="TitleService">Title de nos services</h3>
+                    <img src="./img/management.png" style="width: 100%; height: 100%" class="img_service">
+                    <h3 style="text-align: center" class="TitleService">MANAGEMENT</h3>
                 </div>
             </div>
 
             <div class="services">
                 <div class="service">
-                    <img src="./img/background.png" style="width: 100%; height: 100%" class="img_service">
-                    <h3 style="text-align: center" class="TitleService">Title de nos services</h3>
+                    <img src="./img/marketing.png" style="width: 100%; height: 100%" class="img_service">
+                    <h3 style="text-align: center" class="TitleService">MARKETING</h3>
                 </div>
             </div>
 
             <div class="services">
                 <div class="service">
-                    <img src="./img/background.png" style="width: 100%; height: 100%" class="img_service">
-                    <h3 style="text-align: center" class="TitleService">Title de nos services</h3>
+                    <img src="./img/relation.png" style="width: 100%; height: 100%" class="img_service">
+                    <h3 style="text-align: center" class="TitleService">RELATION</h3>
                 </div>
             </div>
     </div>

@@ -24,7 +24,7 @@ class HomeController extends Controller
             'email' => $request->get('email'),
             'tel' => $request->get('tel'),
             'sujet' => $request->get('sujet'),
-            "subject" => "Demande envoyé 🥳"
+            "subject" => "EpicEvents.fr"
         ];
 
         DB::table('contact')->insert([
@@ -39,7 +39,7 @@ class HomeController extends Controller
         Mail::to(Config::get('contact.email'))->send(new ContactMe($params));
         //return directement des messages, bien enregistré ou le truc est fermé ce jour la!
         return redirect('/')
-            ->with('status','Nous vous confirmons votre Demandé 🤗!');
+            ->with('status','Votre demandé à été envoyé avec succés 🤗!');
         /*
         $email = request ('email');
         dd($email);

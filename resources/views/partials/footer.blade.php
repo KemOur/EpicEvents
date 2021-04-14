@@ -44,19 +44,21 @@
     <br> <br> <br> <br>
     <div class="footer5">
                 <ul class="ul200">
-                    <li style=" color: white">Nos services:</li><br>
-                    <li>Services</li><br>
-                    <li>Services</li><br>
-                    <li>Services</li><br>
-                    <li>Services</li><br>
+                    <li style="color: black">NOS SERVICES:</li><br>
+                    <li style="color: white">Brand Content</li><br>
+                    <li style="color: white">Management</li><br>
+                    <li style="color: white">Communication</li><br>
+                    <li style="color: white">Marketing</li><br>
+                    <li style="color: white">Evenement</li><br>
+                    <li style="color: white">Relation</li><br>
                 </ul>
             </div>
 
         <div class="footer5">
             <ul class="ul200">
-                    <li style="padding: 0 25px;"><img src="./img/snapchat.png"></li>
-                    <li style="padding: 0 25px;"><img src="./img/snapchat.png"></li>
-                    <li style="padding: 0 25px;"><img src="./img/snapchat.png"></li>
+                    <li style="padding: 0 25px;"><img src="./img/youtube.png"></li>
+                    <li style="padding: 0 25px;"><img src="./img/insta.png"></li>
+                    <li style="padding: 0 25px;"><img src="./img/linkedin.png"></li>
             </ul>
         </div>
 </div>

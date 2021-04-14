@@ -76,6 +76,34 @@
 
 
         <div class="teamSpaceMenber">
+        <div style="float: right">
+            <div class="teamMember" style="margin-right: 10%">
+                <img src="./img/claudine.png">
+                <p class="" style="text-align: center">Nom prénom</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="teamSpaceMenber">
+        <div>
+            <div class="teamMember" style="float: left;margin-right: 15%">
+                <img src="./img/claudine.png" >
+                <p class="" style="text-align: center">Nom prénom</p>
+            </div>
+        </div>
+        </div>
+
+        <div class="teamSpaceMenber">
+        <div >
+            <div class="teamMember"style="margin-right: 10%" >
+                <img src="./img/claudine.png">
+                <p class="canelo4">Nom prénom</p>
+            </div>
+        </div>
+        </div>
+
+
+        <div class="teamSpaceMenber">
         <div class="teamMember"  style="float: right">
             <div class="" style="margin-right: 10%">
                 <img src="./img/claudine.png">

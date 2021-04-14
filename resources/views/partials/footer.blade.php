@@ -56,8 +56,13 @@
 
         <div class="footer5">
             <ul class="ul200">
-                    <li style="padding: 0 25px;"><img src="./img/youtube.png"></li>
-                    <li style="padding: 0 25px;"><img src="./img/insta.png"></li>
+                    <a href="https://www.youtube.com/channel/UCwcOc-8xseWUSy9xu392pjw/featured" target="_blank">
+                        <li style="padding: 0 25px;"><img src="./img/youtube.png"></li>
+                    </a>
+                    <a href="https://www.instagram.com/iamepicevents/" target="_blank">
+                        <li style="padding: 0 25px;"><img src="./img/insta.png"></li>
+                    </a>
+
                     <li style="padding: 0 25px;"><img src="./img/linkedin.png"></li>
             </ul>
         </div>

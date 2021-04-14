@@ -62,7 +62,9 @@
                     <a href="https://www.instagram.com/iamepicevents/" target="_blank">
                         <li style="padding: 0 25px;"><img src="./img/insta.png"></li>
                     </a>
-                    <li style="padding: 0 25px;"><img src="./img/linkedin.png"></li>
+                    <a href="https://www.linkedin.com/company/iamepicevents/">
+                        <li style="padding: 0 25px;"><img src="./img/linkedin.png"></li>
+                    </a>
             </ul>
         </div>
 </div>

@@ -163,8 +163,8 @@
     <div>
     <p class="videoPhrase">Epic events c'est vous aussi !</p>
     <!--<video> vidéos ici!</video>-->
-   <div>
-       <img class="epicVideo" src="./img/imgx.png">
+   <div class="videosAgency">
+           <iframe class="iframeClass" src="https://www.youtube.com/embed/NHU59Ey3yU8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    </div>
  </div>
 

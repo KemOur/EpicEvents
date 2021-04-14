@@ -13,7 +13,7 @@
             <form
                 class="formulaireContact"
                 method="post"
-                action="/">
+                action="https://epic-events1.herokuapp.com/">
                 @csrf
                 <input class="inputForm" type="text" id="firstname" name="firstname" value="{{old('firstname')}}" placeholder="Nom"><br><br>
                 <input class="inputForm" type="text" id="lastname" name="lastname" value="{{old('lastname')}}" placeholder="Prénom"><br><br>
@@ -62,7 +62,6 @@
                     <a href="https://www.instagram.com/iamepicevents/" target="_blank">
                         <li style="padding: 0 25px;"><img src="./img/insta.png"></li>
                     </a>
-
                     <li style="padding: 0 25px;"><img src="./img/linkedin.png"></li>
             </ul>
         </div>

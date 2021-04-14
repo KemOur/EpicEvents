@@ -35,9 +35,7 @@ class HomeController extends Controller
             'sujet' => $request['sujet'],
         ]);
 
-
-        Mail::to(Config::get('contact.email'))->send(new ContactMe($params));
-        //return directement des messages, bien enregistré ou le truc est fermé ce jour la!
+        Mail::to('juniore@gmail.com')->send(new ContactMe($params));
         return redirect('/')
             ->with('status','Votre demandé à été envoyé avec succés 🤗!');
         /*

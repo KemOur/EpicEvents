@@ -38,7 +38,7 @@ class HomeController extends Controller
 
         Mail::to(Config::get('contact.email'))->send(new ContactMe($params));
         //return directement des messages, bien enregistré ou le truc est fermé ce jour la!
-        return redirect('https://epic-events1.herokuapp.com/')
+        return redirect('/')
             ->with('status','Votre demandé à été envoyé avec succés 🤗!');
         /*
         $email = request ('email');

@@ -13,7 +13,7 @@
             <form
                 class="formulaireContact"
                 method="post"
-                action="https://epic-events1.herokuapp.com/">
+                action="/">
                 @csrf
                 <input class="inputForm" type="text" id="firstname" name="firstname" value="{{old('firstname')}}" placeholder="Nom"><br><br>
                 <input class="inputForm" type="text" id="lastname" name="lastname" value="{{old('lastname')}}" placeholder="Prénom"><br><br>

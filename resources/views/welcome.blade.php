@@ -22,7 +22,7 @@
 
             <div class="column">
                 <div class="card">
-                    <img src="./img/influ.png" class="imageInfluence" >
+                    <img src="./img/Influ.png" class="imageInfluence" >
                         <div class="overlay">
                             <h3 class="titleDIP">Influence</h3>
                             <small class="textDigital">La Epic team est spécialisée depuis plus de 5 ans dans la gestion de créateurs de

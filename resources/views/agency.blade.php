@@ -41,6 +41,8 @@
 </div>
 </div>
 
+
+<!--
 <div class="allTeamMember">
 <p class="caleno1"><strong>L'Equipe</strong></p>
 
@@ -161,6 +163,7 @@
     </div>
 
     <div>
+    -->
     <p class="videoPhrase">Epic events c'est vous aussi !</p>
     <!--<video> vidéos ici!</video>-->
    <div class="videosAgency">

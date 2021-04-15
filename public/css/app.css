@@ -39,13 +39,6 @@ body {
     padding-left: 0;
 }
 
-.bgw_detail{
-    background: white;
-    height: 20px;
-    margin: -30px 760px 0;
-    width: 105px;
-}
-
 .footerColor {
     height: 44pc;
     background-color: #0CBFA4;
@@ -276,8 +269,8 @@ p {
 }
 
 .p_ami{
-    margin-top: 80px;
-    font-size: 62px;
+    margin-top: 12vh;
+    font-size: 5vw;
 }
 
 .row{
@@ -429,6 +422,7 @@ p {
 
 /* Float four columns side by side */
 .services {
+    flex-grow: 1;
     float: left;
 }
 
@@ -613,9 +607,6 @@ p {
         margin-top: 20pc;
     }
 
-    .bgw_detail{
-        display: none;
-    }
 
     .logo{
         padding: 0 155px;
@@ -1081,9 +1072,6 @@ p {
         margin-top: 20pc;
     }
 
-    .bgw_detail{
-        display: none;
-    }
 
     .logo{
         padding: 0 155px;
@@ -1517,26 +1505,6 @@ p {
         padding: 30%;
     }
 }
-
-
-/*Iphone 12*/
-@media only screen
-and (device-width: 390px)
-and (device-height: 844px)
-and (-webkit-device-pixel-ratio: 3) {
-
-    .row {
-        position: relative;
-        justify-content: center;
-        flex-direction: row;
-        overflow-x: auto;
-        margin: 5%;
-        height: 99pc;
-    }
-
-}
-
-
 
 
 /* iphone 6+, 6s+, 7+, 8+ */
@@ -1986,3 +1954,51 @@ and (-webkit-device-pixel-ratio: 3) {
         padding: 30%;
     }
 }
+
+/*iPhone 12 and iPhone 12 Pro */
+/* 2532x1170 pixels at 460ppi */
+@media only screen
+and (device-width: 390px)
+and (device-height: 844px)
+and (-webkit-device-pixel-ratio: 3) { }
+
+/*This media query is for: iPhone 12 and iPhone 12 Pro iPhone 12 Pro Max */
+/* 2778x1284 pixels at 458ppi */
+@media only screen
+and (device-width: 428px)
+and (device-height: 926px)
+and (-webkit-device-pixel-ratio: 3) {
+
+    .row {
+        position: relative;
+        justify-content: center;
+        flex-direction: row;
+        overflow-x: auto;
+        margin: 5%;
+        height: 105pc;
+    }
+}
+
+
+/*iPhone 11*/
+/* 1792x828px at 326ppi */
+@media only screen
+and (device-width: 414px)
+and (device-height: 896px)
+and (-webkit-device-pixel-ratio: 2) { }
+
+
+/*This media query is for: iPhone 11 and iPhone XR iPhone 11 Pro*/
+/* 2436x1125px at 458ppi */
+@media only screen
+and (device-width: 375px)
+and (device-height: 812px)
+and (-webkit-device-pixel-ratio: 3) { }
+/*This media query is for: iPhone 12 Mini, iPhone 11 Pro, iPhone Xs, and iPhone X*/
+
+/*iPhone 11 Pro Max*/
+/* 2688x1242px at 458ppi */
+@media only screen
+and (device-width: 414px)
+and (device-height: 896px)
+and (-webkit-device-pixel-ratio: 3) { }

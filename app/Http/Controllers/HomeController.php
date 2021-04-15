@@ -27,7 +27,7 @@ class HomeController extends Controller
             "subject" => "EpicEvents.fr"
         ];
 
-        DB::table('contact')->insert([
+        DB::table('contacts')->insert([
             'firstname' => $request['firstname'],
             'lastname' => $request['lastname'],
             'email' => $request['email'],

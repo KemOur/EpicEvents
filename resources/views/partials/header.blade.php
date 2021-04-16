@@ -33,10 +33,10 @@
                         </div>
 
                         <ul class="nav-links">
-                            <li class="influenceur"><a href="#Nos_influenceurs">Influenceurs</a></li>
-                            <li><a href="#Nos_services">Formations</a></li>
-                            <li><a href="/agency">L'agence</a></li>
-                            <li><a href="#fomulaire">Contact</a></li>
+                            <li class="influenceur"><a class="menuH" href="#Nos_influenceurs">Influenceurs</a></li>
+                            <li><a class="menuH" href="#Nos_services">Formations</a></li>
+                            <li><a class="menuH" href="/agency">L'agence</a></li>
+                            <li><a class="menuH" href="#fomulaire">Contact</a></li>
                         </ul>
 
                         <div class="burger" onclick="navSlide()">

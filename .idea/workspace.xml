@@ -227,7 +227,8 @@
       <workItem from="1618243795827" duration="6517000" />
       <workItem from="1618298416507" duration="602000" />
       <workItem from="1618389386260" duration="16281000" />
-      <workItem from="1618484587237" duration="5773000" />
+      <workItem from="1618484587237" duration="6197000" />
+      <workItem from="1618559575953" duration="151000" />
     </task>
     <servers />
   </component>
@@ -281,13 +282,13 @@
     <state width="500" height="442" key="SwitcherDM/0.25.1440.799@0.25.1440.799" timestamp="1616075803750" />
     <state width="500" height="445" key="SwitcherDM/0.25.1440.805@0.25.1440.805" timestamp="1615983748782" />
     <state width="500" height="450" key="SwitcherDM/0.25.1440.813@0.25.1440.813" timestamp="1618407092278" />
-    <state x="399" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1618389386150">
+    <state x="399" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1618559632561">
       <screen x="0" y="25" width="1440" height="813" />
     </state>
     <state x="399" y="252" key="com.intellij.ide.util.TipDialog/0.25.1440.799@0.25.1440.799" timestamp="1616146141661" />
     <state x="399" y="252" key="com.intellij.ide.util.TipDialog/0.25.1440.801@0.25.1440.801" timestamp="1615976295945" />
     <state x="399" y="253" key="com.intellij.ide.util.TipDialog/0.25.1440.804@0.25.1440.804" timestamp="1615458405729" />
-    <state x="399" y="256" key="com.intellij.ide.util.TipDialog/0.25.1440.813@0.25.1440.813" timestamp="1618389386150" />
+    <state x="399" y="256" key="com.intellij.ide.util.TipDialog/0.25.1440.813@0.25.1440.813" timestamp="1618559632561" />
     <state x="399" y="257" key="com.intellij.ide.util.TipDialog/0.25.1440.817@0.25.1440.817" timestamp="1615893523314" />
     <state x="577" y="154" width="816" height="561" key="find.popup" timestamp="1617920036952">
       <screen x="0" y="25" width="1440" height="813" />
